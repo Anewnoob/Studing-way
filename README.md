@@ -5,3 +5,4 @@ The whole directory including:
 4. Machine learning
 5. Algorithm
 6. Scene problem
+7. Statistics
