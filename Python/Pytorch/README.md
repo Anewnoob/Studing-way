@@ -41,7 +41,7 @@ print(w.grad)  #1
 
 print(b.grad)  #1
 
-### Dataset
+# Dataset
 
 import pandas as pd
 
@@ -75,7 +75,7 @@ class myDataset(Dataset):
         return data
         
         
-#define the function len and getitem to write your own dataset
+#define the dataset use torch API
  
     train_data = torch.utils.data.TensorDataset(train_X,train_Y)
                                                 
@@ -88,3 +88,15 @@ class myDataset(Dataset):
     dataloader = DataLoader(val_data, batch_size=batch_size, shuffle=False)
 
     dataloader = DataLoader(test_data, batch_size=batch_size, shuffle=False)
+    
+# nn.Module
+from torch import nn
+
+class net_name(nn.Module):
+
+    def __init(self,other_arguments):
+        super(net_name, self).__init__()
+        
+    def forward(self,x):
+        x = self.convl(x)
+        return x
