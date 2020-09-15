@@ -12,9 +12,9 @@ torch.randn((3,2))--->random value
 
 torch.ones((3,2))--->tensor([[1., 1.],[1., 1.],[1., 1.]])
 
-torch.empty(5, 3 , dtype = torch.uint8)
+torch.empty(5, 3 , dtype = torch.uint8)  #未初始化的（5,3）变量
 
-torch.rand(5, 3 , dtype = torch.float32, requires_grad=True)
+torch.rand(5, 3 , dtype = torch.float32, requires_grad=True) #随机初始化的（5，3）变量
 
 torch.view(3,-1) # reshape x to (3,x)
 
@@ -40,6 +40,10 @@ torch_e = torch.from_numpy(e)
 
 ### tensor to numpy
 e = torch_e.numpy()
+
+### instead of
+#adds x to y
+y.add_(x)  ---> y += x
 
 
 
