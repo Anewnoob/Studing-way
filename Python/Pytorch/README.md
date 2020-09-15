@@ -1,9 +1,9 @@
 # List
 
-Tensor
+1. Tensor
 
-Variable
+2. Variable
 
-Dataset
+3. Dataset
 
-nn.Module
+4. nn.Module
