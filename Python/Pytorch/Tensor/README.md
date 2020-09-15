@@ -2,11 +2,9 @@
 
 import torch
 
-### create a tensor
+### create/filled/rand/add/zeros a tensor  
 
 a = torch.Tensor([[1,2],[3,4],[5,6]])
-
-### create a tensor filled with zero or random values  or ones
 
 torch.zeros((3,2))--->tensor([[0., 0.],[0., 0.],[0., 0.]])
  
