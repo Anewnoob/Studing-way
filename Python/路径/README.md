@@ -30,4 +30,7 @@ os.path.exist(path)
 
 os.path.basename(path)
 
+### 路径分割
+
+(dir,basename) = os.path.split(path)
 
