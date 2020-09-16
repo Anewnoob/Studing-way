@@ -1,4 +1,4 @@
-# 依赖包 (Python 2.7+)
+# os.path (Python 2.7+)
 
 import os
 
@@ -34,3 +34,32 @@ os.path.basename(path)
 
 (dir,basename) = os.path.split(path)
 
+
+# Pathlib (python 3.4+)
+
+from pathlib import path
+
+#define a object
+
+p = Path(r'/Anewnoob/project/test.txt.bk')
+
+p.name  #test.txt.bk  获取文件名
+
+p.stem #test.txt  获取除后缀的文件名
+
+p.suxffix #.bk  获取文件后缀
+
+p.suffixs #{.txt, .bk}  文件的所有后缀
+
+p.parent #/Anewnoob/project/  文件所在目录
+
+p.parent #返回一个iterable, 包含所有父目录
+
+for i in p.parents:
+    print(i)
+    
+p.parts #将路径通过分隔符分割成一个元祖
+
+p.stat()  #获取文件详细信息
+
+p.stat().st_
