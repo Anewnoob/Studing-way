@@ -30,7 +30,7 @@ with open("text.txt", mode = 'r', encoding = 'uft-8') as f:
 # example 3:
 f = open('e:\\123.txt',mode='a+',encoding='gbk')  # 在 a+ 模式下，将在文件的末尾追加数据，不会覆盖原来的内容
 
-f.write('\njack is a student')
+f.write('Anewnoob is a student in UESTC\n')
 
 f.seek(0)  # 将光标移动到文件开头
 
