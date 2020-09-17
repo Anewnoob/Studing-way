@@ -43,6 +43,8 @@ from pathlib import path
 
 p = Path(r'/Anewnoob/project/test.txt.bk')
 
+str(p) #获取路径字符串
+
 p.name  #test.txt.bk  获取文件名
 
 p.stem #test.txt  获取除后缀的文件名
@@ -60,6 +62,12 @@ for i in p.parents:
     
 p.parts #将路径通过分隔符分割成一个元祖
 
+Path('/').joinpath('home','Anewnoob/test')  #/home/Anewnoob/test  路劲拼接
+
+Path('/') / 'home' / 'Anewnoob/test'    #更简单的路径拼接
+
 p.stat()  #获取文件详细信息
 
-p.stat().st_
+Path('new.txt').touch() #创建文件
+
+Path('1/2/3').mkdir()  #创建目录
