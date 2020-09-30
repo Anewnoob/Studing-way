@@ -19,3 +19,5 @@ def func(x,y):
     return x*10+y  
 reduce(func,[1,3,5,7,9])  
 ```
+上述函数可以利用lambda函数简化：  
+reduce(lambda x,y\:x*10+y,[1,3,5,7,9])
