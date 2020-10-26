@@ -10,3 +10,5 @@ ecosystem 生态系统
 notable 名人， 值得注意的
 resident 居民
 constitute 构成，组成
+facilitate 促进
+
