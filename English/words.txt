@@ -11,4 +11,12 @@ notable 名人， 值得注意的
 resident 居民
 constitute 构成，组成
 facilitate 促进
+anomaly 反常现象
+property 属性
+fluids 流体
+modernized 现代化
+congestion 阻塞，拥堵
+emission 辐射
+pollutants 污染
+exacerbate symptoms 加剧症状
 
