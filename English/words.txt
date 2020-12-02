@@ -35,3 +35,11 @@ conductive 导电的
 magnetic 磁性的
 examine 检验
 criteria 标准
+pandemic 大流行的，普遍的
+resilience 适应力， 弹力
+dispatch 调度
+abrupt 突如其来的， 意外的
+intermittent 断断续续的
+exploit 开发，利用
+innovative 创新的
+property 属性，性质
