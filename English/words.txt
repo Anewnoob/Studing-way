@@ -43,3 +43,6 @@ intermittent 断断续续的
 exploit 开发，利用
 innovative 创新的
 property 属性，性质
+tractable 易适应的
+refine 适应
+equivalent 相当与
