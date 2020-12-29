@@ -46,3 +46,5 @@ property 属性，性质
 tractable 易适应的
 refine 适应
 equivalent 相当与
+apparent 显然，显而易见
+relevance 实质性，有关系
