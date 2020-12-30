@@ -48,3 +48,4 @@ refine 适应
 equivalent 相当与
 apparent 显然，显而易见
 relevance 实质性，有关系
+complement 补充
